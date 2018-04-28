@@ -1,0 +1,32 @@
+<html>
+<head>
+<script language="javascript">
+function reverse()
+{
+var ch=document.getElementById("ch");
+var inverse="";
+for (i=ch.lenght-1;i=0;i--)
+inverse.concat(ch.charAt(i));
+document.getElementById("inv").value=inverse ; 
+   }
+</script>
+</head>
+<body>
+<hr>
+<h1><center> <font color="pink" > inversé chaine de caractère </font></center> </h1>
+</hr>
+<hr>
+<p> <font color="red"> entrer une chaine </font> </p> 
+<input type="text" id="ch" value=""> 
+<input type="button" id="inv" value="inverse" onClick=""> <br>
+<p>  <font color="red"> la chaine inversée est </font> </p>
+<input type="text" name="inv" value="">
+</hr>
+<hr>
+<p> entrer une chaine </p>
+<input type="text" name="ch1" value=""> <br>
+<input type="button" name="2inv" value="nbre caractère" onClick=""> <br>
+<input type="text" name="ch2" value="">
+</hr>
+</body>
+</html>
